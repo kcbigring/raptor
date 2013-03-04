@@ -1,0 +1,17 @@
+<%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
+
+<%= @photos.count %> photos found
+
+<table>
+  <tr>
+    <th>Name</th>
+  </tr>
+ 
+<% @photos.each do |photo| %>
+  <tr>
+    <td><%= photo['source'] %></td>
+  </tr>
+<% end %>
+</table>
+ 
+<br />

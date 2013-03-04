@@ -1,0 +1,58 @@
+# create a new rails application w/ no database (typically you would want a db)
+
+rails new raptor --skip-activerecord
+
+rails generate controller home index
+
+# remove default home page
+rm public/index.html
+
+# facebook auth - http://railscasts.com/episodes/360-facebook-authentication
+gem 'omniauth-facebook'
+
+# create config/initializers/ominauth.rb
+# use birdbox test app
+# change to using environment variable!
+
+# routes for omniauth
+match 'auth/:provider/callback', to: 'sessions#create'
+
+# create sessions controller to handle facebook callbak
+controllers/sessions_controller.rb
+
+# login link for fb
+<%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
+
+# to make auth work you either need to modify hosts file or use something like localtunnel
+# let's just tweak /etc/hosts - 127.0.0.1 	local.birdbox.com
+
+# create model to get photos
+# app/models/facebook.rb
+
+class Facebook
+
+  def get_photos(token)
+    photos = []
+    albums = get_albums(token)
+    albums.each do |album|
+      photos.concat get_album_photos(album, token)
+    end
+  end
+  
+  private
+  
+  def get_albums(token)
+  
+  end
+  
+  def get_album_photos(album, token)
+  
+  end
+
+end
+
+# to do's
+caching
+paging
+tagged photos
+

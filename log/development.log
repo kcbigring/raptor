@@ -1,0 +1,1521 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-03-04 10:56:35 -0700
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 10:57:27 -0700
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (uninitialized constant HomeController):
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:229:in `constantize'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__304177105265129351__call__3470286921699976100__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/kcbigring/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/kcbigring/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/kcbigring/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 10:57:59 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Compiled home.css  (33ms)  (pid 32043)
+Compiled application.css  (38ms)  (pid 32043)
+Compiled jquery.js  (1ms)  (pid 32043)
+Compiled jquery_ujs.js  (0ms)  (pid 32043)
+Compiled home.js  (578ms)  (pid 32043)
+Compiled application.js  (616ms)  (pid 32043)
+Completed 200 OK in 723ms (Views: 723.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 10:58:00 -0700
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 10:58:00 -0700
+Served asset /home.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 10:58:00 -0700
+Served asset /jquery_ujs.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 10:58:00 -0700
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 10:58:00 -0700
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 10:58:00 -0700
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:07:41 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 32ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 11:07:42 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 11:07:42 -0700
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 11:07:42 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 11:07:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 11:07:42 -0700
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 11:07:42 -0700
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-04 11:07:43 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:10:41 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 11:10:41 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 11:10:41 -0700
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 11:10:41 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 11:10:41 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 11:10:41 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 11:10:41 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-04 11:10:42 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:11:06 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 11:11:06 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 11:11:06 -0700
+Served asset /jquery.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 11:11:07 -0700
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 11:11:07 -0700
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 11:11:07 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 11:11:07 -0700
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-04 11:11:08 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:13:50 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 11:13:50 -0700
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 11:13:50 -0700
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 11:13:50 -0700
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 11:13:50 -0700
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 11:13:50 -0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 11:13:50 -0700
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-04 11:14:11 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?state=27038dece733ecb5898aab22f36c9970ea46f88e26cbebe7&code=AQA1xUvvPluNbdlYcjHkNXsH5SoY9QVSZJ-f4hsP6_N3xO3yg5ZdcWTlIkNwOpuxZSFi9fKPgNk5VvnT21FUwC0IQvdhLNMV-V5Jr3155wAJHGh9gWhr333Y-K-fSlytPCRE34gjN1iprM1WsZucZEDr-NCgyZhXyoa_1RymV1wrrUV0VIGE5s_wyg11Nkafknyde7FC-_ZhkXvYtFWG6bF_" for 127.0.0.1 at 2013-03-04 11:14:12 -0700
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"27038dece733ecb5898aab22f36c9970ea46f88e26cbebe7", "code"=>"AQA1xUvvPluNbdlYcjHkNXsH5SoY9QVSZJ-f4hsP6_N3xO3yg5ZdcWTlIkNwOpuxZSFi9fKPgNk5VvnT21FUwC0IQvdhLNMV-V5Jr3155wAJHGh9gWhr333Y-K-fSlytPCRE34gjN1iprM1WsZucZEDr-NCgyZhXyoa_1RymV1wrrUV0VIGE5s_wyg11Nkafknyde7FC-_ZhkXvYtFWG6bF_", "provider"=>"facebook"}
+Redirected to http://local.birdbox.com:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:14:13 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-04 11:14:15 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?state=4d7721920d5068c6b6b05e46ab24a5770932b9937446f9e9&code=AQD1jBTykOdCOFTMTPcAygRwzlhyqTCVfMtHWG_l3te4-JwoumniUTJqQamr3ve4sZ-5q9oulSvfJAxLt8DWDGwhVxrt4BwDhig2x1HTAqqYmKg5FDlN5mJq70-hWhaN7kb4DCzNQgRfrvkUs58yzInFR-4HfGIwDSWM5Jo6YV7UKagSe825LkCpZL3twCdIP1JLNHj_XO1r-yd3lqGy-qg1" for 127.0.0.1 at 2013-03-04 11:14:15 -0700
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"4d7721920d5068c6b6b05e46ab24a5770932b9937446f9e9", "code"=>"AQD1jBTykOdCOFTMTPcAygRwzlhyqTCVfMtHWG_l3te4-JwoumniUTJqQamr3ve4sZ-5q9oulSvfJAxLt8DWDGwhVxrt4BwDhig2x1HTAqqYmKg5FDlN5mJq70-hWhaN7kb4DCzNQgRfrvkUs58yzInFR-4HfGIwDSWM5Jo6YV7UKagSe825LkCpZL3twCdIP1JLNHj_XO1r-yd3lqGy-qg1", "provider"=>"facebook"}
+Redirected to http://local.birdbox.com:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:14:16 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-04 11:17:01 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?state=0a2754b2fea5840fc2d62caea2fe73f893f9a8b3c683aad2&code=AQCGmvE6_ZxJH4hXT5iBds2zMGzJgS6gthRYNdqzZ885VLNqmCNe8MwQqwwL78lpqufNNNxt6jVrD1aCaqeydPryID01x1NW02RZMoN0nXSX67hSsMC2kdGqTSnLSVmoR3VEMrmfEl11IQ91a7ezbsf6G0_HWEDQXPL99eSRXUFnP8WWMkeGb_uXyBVlf2ULIoTHc1NU3o1s6kBJeQzbnQ1d" for 127.0.0.1 at 2013-03-04 11:17:01 -0700
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"0a2754b2fea5840fc2d62caea2fe73f893f9a8b3c683aad2", "code"=>"AQCGmvE6_ZxJH4hXT5iBds2zMGzJgS6gthRYNdqzZ885VLNqmCNe8MwQqwwL78lpqufNNNxt6jVrD1aCaqeydPryID01x1NW02RZMoN0nXSX67hSsMC2kdGqTSnLSVmoR3VEMrmfEl11IQ91a7ezbsf6G0_HWEDQXPL99eSRXUFnP8WWMkeGb_uXyBVlf2ULIoTHc1NU3o1s6kBJeQzbnQ1d", "provider"=>"facebook"}
+Redirected to http://local.birdbox.com:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:17:02 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 11:17:02 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 11:17:02 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 11:17:02 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 11:17:02 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 11:17:02 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 11:17:02 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:17:44 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 11:17:44 -0700
+Served asset /home.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 11:17:44 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 11:17:44 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 11:17:44 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 11:17:44 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 11:17:44 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-04 11:17:46 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?state=529e82431f85080e9d49523983ac89dd6db6098cceb8e7c5&code=AQD8T5ulMWQdUr3-Zxm8NgNdTCB-2jzKZWRn96X0HK0zQmEpGMSCvpKgpdpR5TwpQ6gI2xDVYu6yG24ufAnDHXel7Xqide2HB5_rARqkDgyQJwZdlFJBfp0WJGITln-T28n2ohNLTS9A6pv9DaRast_8jBOp0CNxvD0-KDxZkB_4qENm3kWvcCEScuyykundsd9Kz9s7K4CdVYV-bEczw-lX" for 127.0.0.1 at 2013-03-04 11:17:46 -0700
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"529e82431f85080e9d49523983ac89dd6db6098cceb8e7c5", "code"=>"AQD8T5ulMWQdUr3-Zxm8NgNdTCB-2jzKZWRn96X0HK0zQmEpGMSCvpKgpdpR5TwpQ6gI2xDVYu6yG24ufAnDHXel7Xqide2HB5_rARqkDgyQJwZdlFJBfp0WJGITln-T28n2ohNLTS9A6pv9DaRast_8jBOp0CNxvD0-KDxZkB_4qENm3kWvcCEScuyykundsd9Kz9s7K4CdVYV-bEczw-lX", "provider"=>"facebook"}
+Redirected to http://local.birdbox.com:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:17:47 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 11:17:47 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 11:17:47 -0700
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 11:17:47 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 11:17:47 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 11:17:47 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 11:17:47 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-04 11:45:02 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?state=1dbc057f443e9150a8ed68888ff719314f7c50fdcc3d1289&code=AQCItWr8FGyBTo25eBAnete5ERGQ2mHwD7oias3b3nlYmeB8ILJcsUdDGoBEGPJ_MwS9yuiDHFuLVBUq5_2hU5yDPB7sT02lj3SsLZiffEgIoHannZ_01zMBVISHdKyGkSyMc1wl4SFEyCILTWCftLvrjj8KeQRIk0EVisDDjNTKNkDxWk-Ouz7S7g_1PAyIfLgBnqd7GsktdG-xSgwHVapU" for 127.0.0.1 at 2013-03-04 11:45:03 -0700
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"1dbc057f443e9150a8ed68888ff719314f7c50fdcc3d1289", "code"=>"AQCItWr8FGyBTo25eBAnete5ERGQ2mHwD7oias3b3nlYmeB8ILJcsUdDGoBEGPJ_MwS9yuiDHFuLVBUq5_2hU5yDPB7sT02lj3SsLZiffEgIoHannZ_01zMBVISHdKyGkSyMc1wl4SFEyCILTWCftLvrjj8KeQRIk0EVisDDjNTKNkDxWk-Ouz7S7g_1PAyIfLgBnqd7GsktdG-xSgwHVapU", "provider"=>"facebook"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `auth' for :omniauth:Symbol):
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/auth/facebook/callback?state=1dbc057f443e9150a8ed68888ff719314f7c50fdcc3d1289&code=AQCItWr8FGyBTo25eBAnete5ERGQ2mHwD7oias3b3nlYmeB8ILJcsUdDGoBEGPJ_MwS9yuiDHFuLVBUq5_2hU5yDPB7sT02lj3SsLZiffEgIoHannZ_01zMBVISHdKyGkSyMc1wl4SFEyCILTWCftLvrjj8KeQRIk0EVisDDjNTKNkDxWk-Ouz7S7g_1PAyIfLgBnqd7GsktdG-xSgwHVapU" for 127.0.0.1 at 2013-03-04 11:45:08 -0700
+(facebook) Callback phase initiated.
+(facebook) Authentication failure! invalid_credentials: OAuth2::Error, : 
+{"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100}}
+
+OAuth2::Error (: 
+{"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100}}):
+  oauth2 (0.8.1) lib/oauth2/client.rb:108:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:99:in `build_access_token'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:73:in `block in build_access_token'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:174:in `with_authorization_code!'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:73:in `build_access_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:74:in `callback_phase'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.3) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.3) lib/omniauth/builder.rb:48:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__2682393780313127022__call__711688725206375646__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/kcbigring/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/kcbigring/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/kcbigring/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:45:10 -0700
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `auth' for :omniauth:Symbol):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-04 11:45:38 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:46:01 -0700
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `auth' for :omniauth:Symbol):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:46:40 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (21.5ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:46:42 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:46:42 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:47:04 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:47:05 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:47:06 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:47:07 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:47:48 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:47:49 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:48:54 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:48:56 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:52:21 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:52:23 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:52:23 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:52:23 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:52:23 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:52:23 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:52:24 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:52:24 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    5:     <th>Name</th>
+    6:   </tr>
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957568915060'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:52:46 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 11:52:46 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 11:52:46 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 11:52:46 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 11:52:46 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 11:52:46 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 11:52:46 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-04 11:52:48 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?state=50860979d5d178ec13a20d2a7e536526b7d4ccff64528cb8&code=AQBIX9NGysRsOF7m7L6b6KRfm_XbYUUGrTSApLn9hjmhdyie-trlcDKi4cshtUnB4idg1BpWY37LJAZm0bOIINLeaTjDNPg3VhRVMRWQHbj_ddlSC2aXLtvV-ld1tR_JNiZVMYVZpUdUKccUl-7g_zveSZpVOA0msMVAyNrNUq1e2aDgRx1Kb3YHLH7oqo1lbH_I025GVI6fzsJ1ARmHeoqS" for 127.0.0.1 at 2013-03-04 11:52:49 -0700
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"50860979d5d178ec13a20d2a7e536526b7d4ccff64528cb8", "code"=>"AQBIX9NGysRsOF7m7L6b6KRfm_XbYUUGrTSApLn9hjmhdyie-trlcDKi4cshtUnB4idg1BpWY37LJAZm0bOIINLeaTjDNPg3VhRVMRWQHbj_ddlSC2aXLtvV-ld1tR_JNiZVMYVZpUdUKccUl-7g_zveSZpVOA0msMVAyNrNUq1e2aDgRx1Kb3YHLH7oqo1lbH_I025GVI6fzsJ1ARmHeoqS", "provider"=>"facebook"}
+Redirected to http://local.birdbox.com:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:52:49 -0700
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `auth' for :omniauth:Symbol):
+  app/controllers/home_controller.rb:5:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:52:56 -0700
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `auth' for :omniauth:Symbol):
+  app/controllers/home_controller.rb:5:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:52:57 -0700
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `auth' for :omniauth:Symbol):
+  app/controllers/home_controller.rb:5:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:53:12 -0700
+Processing by HomeController#index as HTML
+>>>> token = 
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 11:53:12 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 11:53:12 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:12 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:12 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:12 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:12 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:53:13 -0700
+Processing by HomeController#index as HTML
+>>>> token = 
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 11:53:13 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 11:53:13 -0700
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:13 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:13 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:13 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:13 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-04 11:53:15 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?state=02fe80199d658ef620d7d6e2a9d7688e0ffa617c2d285a08&code=AQCiW0kO6Fi5S-PoAGG8OPezW2MT1qUSl4T4Da1g5gJ_RkC9H0N7-EHZv4Su1XW7B6EwUMat72rPIOPlr-mMx2oHoO9M4Q-knH9lhLMrrwDuDEUrpJUL1ZIaKmQVx-A04wa7DTOJkLX5uQ-pKskWPPhoIbnm5WX65VmW5xeg9S8mOic9mTtWWrzZPvVyD-Dx8ZGT7v7eQwOSbThARrt_uwea" for 127.0.0.1 at 2013-03-04 11:53:15 -0700
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"02fe80199d658ef620d7d6e2a9d7688e0ffa617c2d285a08", "code"=>"AQCiW0kO6Fi5S-PoAGG8OPezW2MT1qUSl4T4Da1g5gJ_RkC9H0N7-EHZv4Su1XW7B6EwUMat72rPIOPlr-mMx2oHoO9M4Q-knH9lhLMrrwDuDEUrpJUL1ZIaKmQVx-A04wa7DTOJkLX5uQ-pKskWPPhoIbnm5WX65VmW5xeg9S8mOic9mTtWWrzZPvVyD-Dx8ZGT7v7eQwOSbThARrt_uwea", "provider"=>"facebook"}
+Redirected to http://local.birdbox.com:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:53:16 -0700
+Processing by HomeController#index as HTML
+>>>> token = 
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 11:53:16 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:16 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:16 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 11:53:16 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:16 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:16 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:53:18 -0700
+Processing by HomeController#index as HTML
+>>>> token = 
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 11:53:18 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:18 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 11:53:18 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:18 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:18 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 11:53:18 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:54:25 -0700
+Processing by HomeController#index as HTML
+>>>> omniauth = #<OmniAuth::AuthHash credentials=#<Hashie::Mash expires=true expires_at=1367604852 token="AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD"> extra=#<Hashie::Mash raw_info=#<Hashie::Mash education=[#<Hashie::Mash school=#<Hashie::Mash id="103090236397786" name="Boulder High School"> type="High School" year=#<Hashie::Mash id="113125125403208" name="2004">>, #<Hashie::Mash school=#<Hashie::Mash id="83086245170" name="University of Colorado Boulder"> type="College">] email="tkohn@birdbox.com" first_name="Johnny" gender="male" id="100004033528037" last_name="Birdbox" link="http://www.facebook.com/johnny.birdbox" locale="en_US" name="Johnny Birdbox" timezone=-7 updated_time="2013-03-04T18:31:10+0000" username="johnny.birdbox" verified=true work=[#<Hashie::Mash employer=#<Hashie::Mash id="376643755686734" name="Birdbox">>]>> info=#<OmniAuth::AuthHash::InfoHash email="tkohn@birdbox.com" first_name="Johnny" image="http://graph.facebook.com/100004033528037/picture?type=square" last_name="Birdbox" name="Johnny Birdbox" nickname="johnny.birdbox" urls=#<Hashie::Mash Facebook="http://www.facebook.com/johnny.birdbox"> verified=true> provider="facebook" uid="100004033528037">
+>>>> token = 
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (private method `get_photos' called for #<Facebook:0x007f407c128a68>):
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:54:28 -0700
+Processing by HomeController#index as HTML
+>>>> omniauth = #<OmniAuth::AuthHash credentials=#<Hashie::Mash expires=true expires_at=1367604852 token="AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD"> extra=#<Hashie::Mash raw_info=#<Hashie::Mash education=[#<Hashie::Mash school=#<Hashie::Mash id="103090236397786" name="Boulder High School"> type="High School" year=#<Hashie::Mash id="113125125403208" name="2004">>, #<Hashie::Mash school=#<Hashie::Mash id="83086245170" name="University of Colorado Boulder"> type="College">] email="tkohn@birdbox.com" first_name="Johnny" gender="male" id="100004033528037" last_name="Birdbox" link="http://www.facebook.com/johnny.birdbox" locale="en_US" name="Johnny Birdbox" timezone=-7 updated_time="2013-03-04T18:31:10+0000" username="johnny.birdbox" verified=true work=[#<Hashie::Mash employer=#<Hashie::Mash id="376643755686734" name="Birdbox">>]>> info=#<OmniAuth::AuthHash::InfoHash email="tkohn@birdbox.com" first_name="Johnny" image="http://graph.facebook.com/100004033528037/picture?type=square" last_name="Birdbox" name="Johnny Birdbox" nickname="johnny.birdbox" urls=#<Hashie::Mash Facebook="http://www.facebook.com/johnny.birdbox"> verified=true> provider="facebook" uid="100004033528037">
+>>>> token = 
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (private method `get_photos' called for #<Facebook:0x007f4080308c08>):
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:58:35 -0700
+Processing by HomeController#index as HTML
+>>>> omniauth = #<OmniAuth::AuthHash credentials=#<Hashie::Mash expires=true expires_at=1367604852 token="AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD"> extra=#<Hashie::Mash raw_info=#<Hashie::Mash education=[#<Hashie::Mash school=#<Hashie::Mash id="103090236397786" name="Boulder High School"> type="High School" year=#<Hashie::Mash id="113125125403208" name="2004">>, #<Hashie::Mash school=#<Hashie::Mash id="83086245170" name="University of Colorado Boulder"> type="College">] email="tkohn@birdbox.com" first_name="Johnny" gender="male" id="100004033528037" last_name="Birdbox" link="http://www.facebook.com/johnny.birdbox" locale="en_US" name="Johnny Birdbox" timezone=-7 updated_time="2013-03-04T18:31:10+0000" username="johnny.birdbox" verified=true work=[#<Hashie::Mash employer=#<Hashie::Mash id="376643755686734" name="Birdbox">>]>> info=#<OmniAuth::AuthHash::InfoHash email="tkohn@birdbox.com" first_name="Johnny" image="http://graph.facebook.com/100004033528037/picture?type=square" last_name="Birdbox" name="Johnny Birdbox" nickname="johnny.birdbox" urls=#<Hashie::Mash Facebook="http://www.facebook.com/johnny.birdbox"> verified=true> provider="facebook" uid="100004033528037">
+>>>> token = AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (private method `get_photos' called for #<Facebook:0x007f4088596968>):
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:58:38 -0700
+Processing by HomeController#index as HTML
+>>>> omniauth = #<OmniAuth::AuthHash credentials=#<Hashie::Mash expires=true expires_at=1367604852 token="AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD"> extra=#<Hashie::Mash raw_info=#<Hashie::Mash education=[#<Hashie::Mash school=#<Hashie::Mash id="103090236397786" name="Boulder High School"> type="High School" year=#<Hashie::Mash id="113125125403208" name="2004">>, #<Hashie::Mash school=#<Hashie::Mash id="83086245170" name="University of Colorado Boulder"> type="College">] email="tkohn@birdbox.com" first_name="Johnny" gender="male" id="100004033528037" last_name="Birdbox" link="http://www.facebook.com/johnny.birdbox" locale="en_US" name="Johnny Birdbox" timezone=-7 updated_time="2013-03-04T18:31:10+0000" username="johnny.birdbox" verified=true work=[#<Hashie::Mash employer=#<Hashie::Mash id="376643755686734" name="Birdbox">>]>> info=#<OmniAuth::AuthHash::InfoHash email="tkohn@birdbox.com" first_name="Johnny" image="http://graph.facebook.com/100004033528037/picture?type=square" last_name="Birdbox" name="Johnny Birdbox" nickname="johnny.birdbox" urls=#<Hashie::Mash Facebook="http://www.facebook.com/johnny.birdbox"> verified=true> provider="facebook" uid="100004033528037">
+>>>> token = AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (private method `get_photos' called for #<Facebook:0x007f40800600f0>):
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:59:21 -0700
+Processing by HomeController#index as HTML
+>>>> omniauth = #<OmniAuth::AuthHash credentials=#<Hashie::Mash expires=true expires_at=1367604852 token="AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD"> extra=#<Hashie::Mash raw_info=#<Hashie::Mash education=[#<Hashie::Mash school=#<Hashie::Mash id="103090236397786" name="Boulder High School"> type="High School" year=#<Hashie::Mash id="113125125403208" name="2004">>, #<Hashie::Mash school=#<Hashie::Mash id="83086245170" name="University of Colorado Boulder"> type="College">] email="tkohn@birdbox.com" first_name="Johnny" gender="male" id="100004033528037" last_name="Birdbox" link="http://www.facebook.com/johnny.birdbox" locale="en_US" name="Johnny Birdbox" timezone=-7 updated_time="2013-03-04T18:31:10+0000" username="johnny.birdbox" verified=true work=[#<Hashie::Mash employer=#<Hashie::Mash id="376643755686734" name="Birdbox">>]>> info=#<OmniAuth::AuthHash::InfoHash email="tkohn@birdbox.com" first_name="Johnny" image="http://graph.facebook.com/100004033528037/picture?type=square" last_name="Birdbox" name="Johnny Birdbox" nickname="johnny.birdbox" urls=#<Hashie::Mash Facebook="http://www.facebook.com/johnny.birdbox"> verified=true> provider="facebook" uid="100004033528037">
+>>>> token = AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `request_uri' for #<URI::Generic:0x007f40802128a8>):
+  app/models/facebook.rb:51:in `get_facebook_response'
+  app/models/facebook.rb:36:in `get_albums'
+  app/models/facebook.rb:5:in `get_photos'
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 11:59:22 -0700
+Processing by HomeController#index as HTML
+>>>> omniauth = #<OmniAuth::AuthHash credentials=#<Hashie::Mash expires=true expires_at=1367604852 token="AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD"> extra=#<Hashie::Mash raw_info=#<Hashie::Mash education=[#<Hashie::Mash school=#<Hashie::Mash id="103090236397786" name="Boulder High School"> type="High School" year=#<Hashie::Mash id="113125125403208" name="2004">>, #<Hashie::Mash school=#<Hashie::Mash id="83086245170" name="University of Colorado Boulder"> type="College">] email="tkohn@birdbox.com" first_name="Johnny" gender="male" id="100004033528037" last_name="Birdbox" link="http://www.facebook.com/johnny.birdbox" locale="en_US" name="Johnny Birdbox" timezone=-7 updated_time="2013-03-04T18:31:10+0000" username="johnny.birdbox" verified=true work=[#<Hashie::Mash employer=#<Hashie::Mash id="376643755686734" name="Birdbox">>]>> info=#<OmniAuth::AuthHash::InfoHash email="tkohn@birdbox.com" first_name="Johnny" image="http://graph.facebook.com/100004033528037/picture?type=square" last_name="Birdbox" name="Johnny Birdbox" nickname="johnny.birdbox" urls=#<Hashie::Mash Facebook="http://www.facebook.com/johnny.birdbox"> verified=true> provider="facebook" uid="100004033528037">
+>>>> token = AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `request_uri' for #<URI::Generic:0x007f407c0d7500>):
+  app/models/facebook.rb:51:in `get_facebook_response'
+  app/models/facebook.rb:36:in `get_albums'
+  app/models/facebook.rb:5:in `get_photos'
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 12:00:43 -0700
+Processing by HomeController#index as HTML
+>>>> omniauth = #<OmniAuth::AuthHash credentials=#<Hashie::Mash expires=true expires_at=1367604852 token="AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD"> extra=#<Hashie::Mash raw_info=#<Hashie::Mash education=[#<Hashie::Mash school=#<Hashie::Mash id="103090236397786" name="Boulder High School"> type="High School" year=#<Hashie::Mash id="113125125403208" name="2004">>, #<Hashie::Mash school=#<Hashie::Mash id="83086245170" name="University of Colorado Boulder"> type="College">] email="tkohn@birdbox.com" first_name="Johnny" gender="male" id="100004033528037" last_name="Birdbox" link="http://www.facebook.com/johnny.birdbox" locale="en_US" name="Johnny Birdbox" timezone=-7 updated_time="2013-03-04T18:31:10+0000" username="johnny.birdbox" verified=true work=[#<Hashie::Mash employer=#<Hashie::Mash id="376643755686734" name="Birdbox">>]>> info=#<OmniAuth::AuthHash::InfoHash email="tkohn@birdbox.com" first_name="Johnny" image="http://graph.facebook.com/100004033528037/picture?type=square" last_name="Birdbox" name="Johnny Birdbox" nickname="johnny.birdbox" urls=#<Hashie::Mash Facebook="http://www.facebook.com/johnny.birdbox"> verified=true> provider="facebook" uid="100004033528037">
+>>>> token = AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1410ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 12:00:44 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 12:00:44 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 12:00:44 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 12:00:44 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 12:00:44 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 12:00:44 -0700
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 12:01:58 -0700
+Processing by HomeController#index as HTML
+>>>> omniauth = #<OmniAuth::AuthHash credentials=#<Hashie::Mash expires=true expires_at=1367604852 token="AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD"> extra=#<Hashie::Mash raw_info=#<Hashie::Mash education=[#<Hashie::Mash school=#<Hashie::Mash id="103090236397786" name="Boulder High School"> type="High School" year=#<Hashie::Mash id="113125125403208" name="2004">>, #<Hashie::Mash school=#<Hashie::Mash id="83086245170" name="University of Colorado Boulder"> type="College">] email="tkohn@birdbox.com" first_name="Johnny" gender="male" id="100004033528037" last_name="Birdbox" link="http://www.facebook.com/johnny.birdbox" locale="en_US" name="Johnny Birdbox" timezone=-7 updated_time="2013-03-04T18:31:10+0000" username="johnny.birdbox" verified=true work=[#<Hashie::Mash employer=#<Hashie::Mash id="376643755686734" name="Birdbox">>]>> info=#<OmniAuth::AuthHash::InfoHash email="tkohn@birdbox.com" first_name="Johnny" image="http://graph.facebook.com/100004033528037/picture?type=square" last_name="Birdbox" name="Johnny Birdbox" nickname="johnny.birdbox" urls=#<Hashie::Mash Facebook="http://www.facebook.com/johnny.birdbox"> verified=true> provider="facebook" uid="100004033528037">
+>>>> token = AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+Completed 500 Internal Server Error in 701ms
+
+NameError (undefined local variable or method `token' for #<Facebook:0x007f40743dc488>):
+  app/models/facebook.rb:15:in `page_photos'
+  app/models/facebook.rb:7:in `block in get_photos'
+  app/models/facebook.rb:6:in `each'
+  app/models/facebook.rb:6:in `get_photos'
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 12:03:11 -0700
+Processing by HomeController#index as HTML
+>>>> omniauth = #<OmniAuth::AuthHash credentials=#<Hashie::Mash expires=true expires_at=1367604852 token="AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD"> extra=#<Hashie::Mash raw_info=#<Hashie::Mash education=[#<Hashie::Mash school=#<Hashie::Mash id="103090236397786" name="Boulder High School"> type="High School" year=#<Hashie::Mash id="113125125403208" name="2004">>, #<Hashie::Mash school=#<Hashie::Mash id="83086245170" name="University of Colorado Boulder"> type="College">] email="tkohn@birdbox.com" first_name="Johnny" gender="male" id="100004033528037" last_name="Birdbox" link="http://www.facebook.com/johnny.birdbox" locale="en_US" name="Johnny Birdbox" timezone=-7 updated_time="2013-03-04T18:31:10+0000" username="johnny.birdbox" verified=true work=[#<Hashie::Mash employer=#<Hashie::Mash id="376643755686734" name="Birdbox">>]>> info=#<OmniAuth::AuthHash::InfoHash email="tkohn@birdbox.com" first_name="Johnny" image="http://graph.facebook.com/100004033528037/picture?type=square" last_name="Birdbox" name="Johnny Birdbox" nickname="johnny.birdbox" urls=#<Hashie::Mash Facebook="http://www.facebook.com/johnny.birdbox"> verified=true> provider="facebook" uid="100004033528037">
+>>>> token = AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+Completed 500 Internal Server Error in 422ms
+
+NameError (undefined local variable or method `logger' for #<Facebook:0x007f407c108f38>):
+  app/models/facebook.rb:16:in `page_photos'
+  app/models/facebook.rb:7:in `block in get_photos'
+  app/models/facebook.rb:6:in `each'
+  app/models/facebook.rb:6:in `get_photos'
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 12:03:54 -0700
+Processing by HomeController#index as HTML
+>>>> omniauth = #<OmniAuth::AuthHash credentials=#<Hashie::Mash expires=true expires_at=1367604852 token="AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD"> extra=#<Hashie::Mash raw_info=#<Hashie::Mash education=[#<Hashie::Mash school=#<Hashie::Mash id="103090236397786" name="Boulder High School"> type="High School" year=#<Hashie::Mash id="113125125403208" name="2004">>, #<Hashie::Mash school=#<Hashie::Mash id="83086245170" name="University of Colorado Boulder"> type="College">] email="tkohn@birdbox.com" first_name="Johnny" gender="male" id="100004033528037" last_name="Birdbox" link="http://www.facebook.com/johnny.birdbox" locale="en_US" name="Johnny Birdbox" timezone=-7 updated_time="2013-03-04T18:31:10+0000" username="johnny.birdbox" verified=true work=[#<Hashie::Mash employer=#<Hashie::Mash id="376643755686734" name="Birdbox">>]>> info=#<OmniAuth::AuthHash::InfoHash email="tkohn@birdbox.com" first_name="Johnny" image="http://graph.facebook.com/100004033528037/picture?type=square" last_name="Birdbox" name="Johnny Birdbox" nickname="johnny.birdbox" urls=#<Hashie::Mash Facebook="http://www.facebook.com/johnny.birdbox"> verified=true> provider="facebook" uid="100004033528037">
+>>>> token = AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+Completed 500 Internal Server Error in 715ms
+
+ArgumentError (uncaught throw "facebook api error: Unknown path components: /image"):
+  app/models/facebook.rb:58:in `throw'
+  app/models/facebook.rb:58:in `get_facebook_response'
+  app/models/facebook.rb:18:in `page_photos'
+  app/models/facebook.rb:7:in `block in get_photos'
+  app/models/facebook.rb:6:in `each'
+  app/models/facebook.rb:6:in `get_photos'
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 12:04:36 -0700
+Processing by HomeController#index as HTML
+>>>> omniauth = #<OmniAuth::AuthHash credentials=#<Hashie::Mash expires=true expires_at=1367604852 token="AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD"> extra=#<Hashie::Mash raw_info=#<Hashie::Mash education=[#<Hashie::Mash school=#<Hashie::Mash id="103090236397786" name="Boulder High School"> type="High School" year=#<Hashie::Mash id="113125125403208" name="2004">>, #<Hashie::Mash school=#<Hashie::Mash id="83086245170" name="University of Colorado Boulder"> type="College">] email="tkohn@birdbox.com" first_name="Johnny" gender="male" id="100004033528037" last_name="Birdbox" link="http://www.facebook.com/johnny.birdbox" locale="en_US" name="Johnny Birdbox" timezone=-7 updated_time="2013-03-04T18:31:10+0000" username="johnny.birdbox" verified=true work=[#<Hashie::Mash employer=#<Hashie::Mash id="376643755686734" name="Birdbox">>]>> info=#<OmniAuth::AuthHash::InfoHash email="tkohn@birdbox.com" first_name="Johnny" image="http://graph.facebook.com/100004033528037/picture?type=square" last_name="Birdbox" name="Johnny Birdbox" nickname="johnny.birdbox" urls=#<Hashie::Mash Facebook="http://www.facebook.com/johnny.birdbox"> verified=true> provider="facebook" uid="100004033528037">
+>>>> token = AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950697649379/image?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+Completed 500 Internal Server Error in 603ms
+
+ArgumentError (uncaught throw "facebook api error: Unknown path components: /image"):
+  app/models/facebook.rb:59:in `throw'
+  app/models/facebook.rb:59:in `get_facebook_response'
+  app/models/facebook.rb:19:in `page_photos'
+  app/models/facebook.rb:7:in `block in get_photos'
+  app/models/facebook.rb:6:in `each'
+  app/models/facebook.rb:6:in `get_photos'
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 12:05:19 -0700
+Processing by HomeController#index as HTML
+>>>> omniauth = #<OmniAuth::AuthHash credentials=#<Hashie::Mash expires=true expires_at=1367604852 token="AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD"> extra=#<Hashie::Mash raw_info=#<Hashie::Mash education=[#<Hashie::Mash school=#<Hashie::Mash id="103090236397786" name="Boulder High School"> type="High School" year=#<Hashie::Mash id="113125125403208" name="2004">>, #<Hashie::Mash school=#<Hashie::Mash id="83086245170" name="University of Colorado Boulder"> type="College">] email="tkohn@birdbox.com" first_name="Johnny" gender="male" id="100004033528037" last_name="Birdbox" link="http://www.facebook.com/johnny.birdbox" locale="en_US" name="Johnny Birdbox" timezone=-7 updated_time="2013-03-04T18:31:10+0000" username="johnny.birdbox" verified=true work=[#<Hashie::Mash employer=#<Hashie::Mash id="376643755686734" name="Birdbox">>]>> info=#<OmniAuth::AuthHash::InfoHash email="tkohn@birdbox.com" first_name="Johnny" image="http://graph.facebook.com/100004033528037/picture?type=square" last_name="Birdbox" name="Johnny Birdbox" nickname="johnny.birdbox" urls=#<Hashie::Mash Facebook="http://www.facebook.com/johnny.birdbox"> verified=true> provider="facebook" uid="100004033528037">
+>>>> token = AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950697649379/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950640982718/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950350982747/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950107649438/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224949627649486/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224949500982832/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/221496634661452/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122088484602268/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/214137202064062/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/116909401786843/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/116155988528851/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/145932248884558/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/126798054131311/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122089877935462/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/126783930799390/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122145934596523/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122124854598631/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122089207935529/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122087684602348/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/120057381472045/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/120057381472045/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11049ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 12:05:31 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 12:05:31 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 12:05:31 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 12:05:31 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 12:05:31 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 12:05:31 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 12:06:16 -0700
+Processing by HomeController#index as HTML
+>>>> token = AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950697649379/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950640982718/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950350982747/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950107649438/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224949627649486/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224949500982832/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/221496634661452/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122088484602268/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/214137202064062/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/116909401786843/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/116155988528851/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/145932248884558/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/126798054131311/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122089877935462/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/126783930799390/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122145934596523/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122124854598631/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122089207935529/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122087684602348/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/120057381472045/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/120057381472045/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 9097ms
+
+ActionView::Template::Error (undefined method `source' for #<Hash:0x007f407c14bae0>):
+    7:  
+    8: <% @photos.each do |photo| %>
+    9:   <tr>
+    10:     <td><%= photo.source %></td>
+    11:   </tr>
+    12: <% end %>
+    13: </table>
+  app/views/home/index.html.erb:10:in `block in _app_views_home_index_html_erb___108440695701115617_69957501280000'
+  app/views/home/index.html.erb:8:in `each'
+  app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb___108440695701115617_69957501280000'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 12:07:18 -0700
+Processing by HomeController#index as HTML
+>>>> token = AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950697649379/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950640982718/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950350982747/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950107649438/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224949627649486/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224949500982832/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/221496634661452/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122088484602268/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/214137202064062/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/116909401786843/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/116155988528851/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/145932248884558/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/126798054131311/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122089877935462/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/126783930799390/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122145934596523/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122124854598631/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122089207935529/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122087684602348/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/120057381472045/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/120057381472045/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9166ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 12:07:27 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 12:07:27 -0700
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 12:07:27 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 12:07:27 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 12:07:27 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 12:07:27 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 12:17:44 -0700
+Processing by HomeController#index as HTML
+>>>> token = AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950697649379/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950640982718/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950350982747/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224950107649438/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224949627649486/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/224949500982832/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/221496634661452/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122088484602268/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/214137202064062/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/116909401786843/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/116155988528851/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/145932248884558/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/126798054131311/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122089877935462/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/126783930799390/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122145934596523/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122124854598631/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122089207935529/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/122087684602348/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/120057381472045/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+photo url = https://graph.facebook.com/120057381472045/photos?access_token=AAADojSnpZBW4BAEUE5NZBQEHCoqMsoTQC67VUJpP050oJV5kf0KxiJZBiRCzKrZCSdlimQsxZA61fcwJVtDizOA7RwtrswDsYUpIWmd5ukgZDZD
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 8510ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-04 12:17:52 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-04 12:17:52 -0700
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-04 12:17:52 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-04 12:17:52 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-04 12:17:52 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-04 12:17:52 -0700
+Served asset /home.js - 304 Not Modified (0ms)
