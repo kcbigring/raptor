@@ -2609,3 +2609,577 @@ Served asset /home.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 10:10:34 -0700
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:43:24 -0600
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 81ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-12 17:43:25 -0600
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-12 17:43:25 -0600
+Served asset /jquery_ujs.js - 200 OK (22ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-12 17:43:25 -0600
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-12 17:43:25 -0600
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-12 17:43:25 -0600
+Served asset /application.js - 200 OK (7ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-12 17:43:25 -0600
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-12 17:43:27 -0600
+(facebook) Request phase initiated.
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:45:13 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-12 17:45:13 -0600
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-12 17:45:13 -0600
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-12 17:45:13 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-12 17:45:13 -0600
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-12 17:45:13 -0600
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-12 17:45:13 -0600
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-12 17:45:15 -0600
+(facebook) Request phase initiated.
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:45:23 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-12 17:45:23 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-12 17:45:23 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-12 17:45:23 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-12 17:45:23 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-12 17:45:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-12 17:45:23 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:45:39 -0600
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-12 17:45:39 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-12 17:45:39 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-12 17:45:39 -0600
+Served asset /jquery.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-12 17:45:39 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-12 17:45:39 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-12 17:45:39 -0600
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-12 17:45:41 -0600
+(facebook) Request phase initiated.
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:46:31 -0600
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-12 17:46:31 -0600
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-12 17:46:31 -0600
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:31 -0600
+Served asset /jquery_ujs.js - 200 OK (31ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:31 -0600
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:31 -0600
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:31 -0600
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-12 17:46:33 -0600
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?state=4b5bb5fe968fae0397f71f59a9a455467e21f99fe3699bc1&code=AQA4mH1JI11LgS2S4KVqQnhqPSbwd6s4asKYqToDTnzdeqaIVie3QWqMUIJx66mZTfXua1O-fJlQVAGGS4ctxYLWELVFqNVmNXEyUEgL-SADI3NnydjckUorQRJtaiRX_Yklq6Z8XkAHENsn79BmPVEmX2bosT-4F-eQ9PX5PFA8t1HgFf8gC1spK64f1v_v2i_JXInnm9H9euYsxXVVbl8A" for 127.0.0.1 at 2013-03-12 17:46:36 -0600
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"4b5bb5fe968fae0397f71f59a9a455467e21f99fe3699bc1", "code"=>"AQA4mH1JI11LgS2S4KVqQnhqPSbwd6s4asKYqToDTnzdeqaIVie3QWqMUIJx66mZTfXua1O-fJlQVAGGS4ctxYLWELVFqNVmNXEyUEgL-SADI3NnydjckUorQRJtaiRX_Yklq6Z8XkAHENsn79BmPVEmX2bosT-4F-eQ9PX5PFA8t1HgFf8gC1spK64f1v_v2i_JXInnm9H9euYsxXVVbl8A", "provider"=>"facebook"}
+Redirected to http://local.elasticbeanstalk.com:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:46:36 -0600
+Processing by HomeController#index as HTML
+>>>> token = AAAGRe30aibsBAPkf5Q2Tn6c0nciZAixmyppZAuXEaUYKrveYz2FN11IubFWT8mvcbMmp0GcCzDAguMmCstbm6e6ZBrSHF5LVmmgks5bRgZDZD
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 276ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-12 17:46:36 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:37 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-12 17:46:37 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:37 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:37 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:46:40 -0600
+Processing by HomeController#index as HTML
+>>>> token = AAAGRe30aibsBAPkf5Q2Tn6c0nciZAixmyppZAuXEaUYKrveYz2FN11IubFWT8mvcbMmp0GcCzDAguMmCstbm6e6ZBrSHF5LVmmgks5bRgZDZD
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 315ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-12 17:46:41 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-12 17:46:41 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:41 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:41 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:41 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-12 17:46:43 -0600
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?state=9786eab6bc3fa64740e97c38eb0f3aebc1f578d7ab4e599a&code=AQBGiz9Qwga7l5bsw5gfEFRkPfbF7LG21cwhd6LYrihPA9Uuwfudg1XMf1CaXUulIo46Sl_yyP4fKR5Bv013Lq2i5RaliJl08pY_CecMJOkN_5QJS8FGgBDQOnzfSyzb0vUDiCEDZDj7EmaFa8saYTGv57xzI6mZvWq8AyzyfZNYiJuitHZasC7oEHs0K2YZ8Mnf8LyNtwINW8mWvSCx-Dhs" for 127.0.0.1 at 2013-03-12 17:46:44 -0600
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"9786eab6bc3fa64740e97c38eb0f3aebc1f578d7ab4e599a", "code"=>"AQBGiz9Qwga7l5bsw5gfEFRkPfbF7LG21cwhd6LYrihPA9Uuwfudg1XMf1CaXUulIo46Sl_yyP4fKR5Bv013Lq2i5RaliJl08pY_CecMJOkN_5QJS8FGgBDQOnzfSyzb0vUDiCEDZDj7EmaFa8saYTGv57xzI6mZvWq8AyzyfZNYiJuitHZasC7oEHs0K2YZ8Mnf8LyNtwINW8mWvSCx-Dhs", "provider"=>"facebook"}
+Redirected to http://local.elasticbeanstalk.com:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:46:44 -0600
+Processing by HomeController#index as HTML
+>>>> token = AAAGRe30aibsBAPkf5Q2Tn6c0nciZAixmyppZAuXEaUYKrveYz2FN11IubFWT8mvcbMmp0GcCzDAguMmCstbm6e6ZBrSHF5LVmmgks5bRgZDZD
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 218ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-12 17:46:44 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-12 17:46:44 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:44 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:44 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:44 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-12 17:46:44 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:48:33 -0600
+Processing by HomeController#index as HTML
+>>>> token = AAAGRe30aibsBAPkf5Q2Tn6c0nciZAixmyppZAuXEaUYKrveYz2FN11IubFWT8mvcbMmp0GcCzDAguMmCstbm6e6ZBrSHF5LVmmgks5bRgZDZD
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 243ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-12 17:48:33 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-12 17:48:33 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-12 17:48:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-12 17:48:33 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-12 17:48:33 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-12 17:48:33 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-12 17:48:35 -0600
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?state=537c7be8902ff3fb932327f59f8ac6b2d602145a246ad3ed&code=AQD3v9r8c3xVv3W5utPX41ctthVPHVcxRXyDRE3jXQC557H3EPIAIsspUqon5rpSj3aHi_iSpq4jchwv-8qR3BksHXzFT5x-8im3AAANB0WQHZ4WfRW8xZZWJVI_g02MUcOgS3LN1skQbRZXB_VxSXeVn-Ooih5cgI5xu-3A_qNc_sM76MA_6YIpIkVmKsLUXsp6xE5zbvcGKQHbrlE3lcVB" for 127.0.0.1 at 2013-03-12 17:48:35 -0600
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"537c7be8902ff3fb932327f59f8ac6b2d602145a246ad3ed", "code"=>"AQD3v9r8c3xVv3W5utPX41ctthVPHVcxRXyDRE3jXQC557H3EPIAIsspUqon5rpSj3aHi_iSpq4jchwv-8qR3BksHXzFT5x-8im3AAANB0WQHZ4WfRW8xZZWJVI_g02MUcOgS3LN1skQbRZXB_VxSXeVn-Ooih5cgI5xu-3A_qNc_sM76MA_6YIpIkVmKsLUXsp6xE5zbvcGKQHbrlE3lcVB", "provider"=>"facebook"}
+Redirected to http://local.elasticbeanstalk.com:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:48:35 -0600
+Processing by HomeController#index as HTML
+>>>> token = AAAGRe30aibsBAPkf5Q2Tn6c0nciZAixmyppZAuXEaUYKrveYz2FN11IubFWT8mvcbMmp0GcCzDAguMmCstbm6e6ZBrSHF5LVmmgks5bRgZDZD
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 240ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-12 17:48:36 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-12 17:48:36 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-12 17:48:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-12 17:48:36 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-12 17:48:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-12 17:48:36 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-12 17:48:37 -0600
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?state=67c2fa91d62aa976448cd73530e133c10b68add8353117ae&code=AQDKf6x3GSzikbw1OKB7newSHdsiOH5DW4Pa4OVXen903A6WLNZDhSMzfFpt7OsqJo--G5cQUwpSUzqogo5kIXZcIi3_kjCuk5zjMnS5t1R16W6qiU6uEoCdcCYyc1QwCYsKMwkQ0FVJuLrWhMa4AHgi8F2GE5JdbghyAbAHQ8J4iltB9YkmLtDILdX4rz93Kgqlsqq4ivCWbG-nwn5zO1Ck" for 127.0.0.1 at 2013-03-12 17:48:37 -0600
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"67c2fa91d62aa976448cd73530e133c10b68add8353117ae", "code"=>"AQDKf6x3GSzikbw1OKB7newSHdsiOH5DW4Pa4OVXen903A6WLNZDhSMzfFpt7OsqJo--G5cQUwpSUzqogo5kIXZcIi3_kjCuk5zjMnS5t1R16W6qiU6uEoCdcCYyc1QwCYsKMwkQ0FVJuLrWhMa4AHgi8F2GE5JdbghyAbAHQ8J4iltB9YkmLtDILdX4rz93Kgqlsqq4ivCWbG-nwn5zO1Ck", "provider"=>"facebook"}
+Redirected to http://local.elasticbeanstalk.com:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:48:38 -0600
+Processing by HomeController#index as HTML
+>>>> token = AAAGRe30aibsBAPkf5Q2Tn6c0nciZAixmyppZAuXEaUYKrveYz2FN11IubFWT8mvcbMmp0GcCzDAguMmCstbm6e6ZBrSHF5LVmmgks5bRgZDZD
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 254ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-12 17:48:38 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-12 17:48:38 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-12 17:48:38 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-12 17:48:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-12 17:48:38 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-12 17:48:38 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:48:47 -0600
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+>>>> token = AAAGRe30aibsBAPkf5Q2Tn6c0nciZAixmyppZAuXEaUYKrveYz2FN11IubFWT8mvcbMmp0GcCzDAguMmCstbm6e6ZBrSHF5LVmmgks5bRgZDZD
+Completed 500 Internal Server Error in 17ms
+
+NameError (uninitialized constant Facebook::Net):
+  app/models/facebook.rb:48:in `get_facebook_response'
+  app/models/facebook.rb:36:in `get_albums'
+  app/models/facebook.rb:5:in `get_photos'
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:48:50 -0600
+Processing by HomeController#index as HTML
+>>>> token = AAAGRe30aibsBAPkf5Q2Tn6c0nciZAixmyppZAuXEaUYKrveYz2FN11IubFWT8mvcbMmp0GcCzDAguMmCstbm6e6ZBrSHF5LVmmgks5bRgZDZD
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant Facebook::Net):
+  app/models/facebook.rb:48:in `get_facebook_response'
+  app/models/facebook.rb:36:in `get_albums'
+  app/models/facebook.rb:5:in `get_photos'
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:50:04 -0600
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+>>>> token = AAAGRe30aibsBAPkf5Q2Tn6c0nciZAixmyppZAuXEaUYKrveYz2FN11IubFWT8mvcbMmp0GcCzDAguMmCstbm6e6ZBrSHF5LVmmgks5bRgZDZD
+Completed 500 Internal Server Error in 17ms
+
+NameError (uninitialized constant Facebook::Net):
+  app/models/facebook.rb:48:in `get_facebook_response'
+  app/models/facebook.rb:36:in `get_albums'
+  app/models/facebook.rb:5:in `get_photos'
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:51:10 -0600
+Processing by HomeController#index as HTML
+>>>> token = AAAGRe30aibsBAPkf5Q2Tn6c0nciZAixmyppZAuXEaUYKrveYz2FN11IubFWT8mvcbMmp0GcCzDAguMmCstbm6e6ZBrSHF5LVmmgks5bRgZDZD
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant Facebook::Net):
+  app/models/facebook.rb:48:in `get_facebook_response'
+  app/models/facebook.rb:36:in `get_albums'
+  app/models/facebook.rb:5:in `get_photos'
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:51:11 -0600
+Processing by HomeController#index as HTML
+>>>> token = AAAGRe30aibsBAPkf5Q2Tn6c0nciZAixmyppZAuXEaUYKrveYz2FN11IubFWT8mvcbMmp0GcCzDAguMmCstbm6e6ZBrSHF5LVmmgks5bRgZDZD
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant Facebook::Net):
+  app/models/facebook.rb:48:in `get_facebook_response'
+  app/models/facebook.rb:36:in `get_albums'
+  app/models/facebook.rb:5:in `get_photos'
+  app/controllers/home_controller.rb:8:in `index'
+
+
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/kcbigring/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:51:20 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-12 17:51:21 -0600
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-12 17:51:21 -0600
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-12 17:51:21 -0600
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-12 17:51:21 -0600
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-12 17:51:21 -0600
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-12 17:51:21 -0600
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-12 17:51:22 -0600
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?state=05a3f862fb99610b9470150a78405ba36f11414bec605b82&code=AQCdQpYvP0T5cqoy3DMYCg4K4Imxpl5jDXlTWlHQtGM-qd-qDBQ4NjqUHbq4MgDuVi9AexLAQwj1bppFCcPbIhDUzDU7b-QMSII56m6EfT3nHZL5cqolZ2fK2FzgY2vsvDt1kHQFzbI9LPydnaQ9ZRqZ4GjAgmJhecNsWBKAjFTTflVedM7TRQo0CwbL3nhNox2ZchEGgRK3Wr2UE0CC9rLN" for 127.0.0.1 at 2013-03-12 17:51:33 -0600
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"05a3f862fb99610b9470150a78405ba36f11414bec605b82", "code"=>"AQCdQpYvP0T5cqoy3DMYCg4K4Imxpl5jDXlTWlHQtGM-qd-qDBQ4NjqUHbq4MgDuVi9AexLAQwj1bppFCcPbIhDUzDU7b-QMSII56m6EfT3nHZL5cqolZ2fK2FzgY2vsvDt1kHQFzbI9LPydnaQ9ZRqZ4GjAgmJhecNsWBKAjFTTflVedM7TRQo0CwbL3nhNox2ZchEGgRK3Wr2UE0CC9rLN", "provider"=>"facebook"}
+Redirected to http://local.elasticbeanstalk.com:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-12 17:51:34 -0600
+Processing by HomeController#index as HTML
+>>>> token = AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/221496634661452/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/122088484602268/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/214137202064062/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/116909401786843/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/116155988528851/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/145932248884558/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/126798054131311/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/122089877935462/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/126783930799390/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/122145934596523/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/122124854598631/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/122089207935529/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/122087684602348/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/120057381472045/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+photo url = https://graph.facebook.com/120057381472045/photos?access_token=AAAGRe30aibsBAHhDtRxZBGwvKQ2iolN20XoIWaRUsy439KKjKq7fd8t1JHRab1RtHoSmxgjVkOo436SZB8eNcSH5suQVJPoH0wCxw9owZDZD
+  Rendered home/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 6248ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-12 17:51:40 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-12 17:51:40 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-12 17:51:40 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-12 17:51:40 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-12 17:51:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-12 17:51:40 -0600
+Served asset /home.js - 304 Not Modified (0ms)
