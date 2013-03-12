@@ -1,17 +1,18 @@
 <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
 
-<%= @photos.count %> photos found
-
+<td>
+  <%= @photos.count %> photos found
+</td>
 <table>
   <tr>
-    <th>Name</th>
+<% @photos.each_with_index do |photo, index| %>
+    <td><%= image_tag(photo['images'][photo['images'].count- 1]['source'], :size => "128x128", :alt => "Facebook Photo") %></td>
+  <% if ((index + 1) % 8) == 0 %>
   </tr>
- 
-<% @photos.each do |photo| %>
   <tr>
-    <td><%= photo['source'] %></td>
-  </tr>
+  <% end %>
 <% end %>
+  </tr>
 </table>
  
 <br />

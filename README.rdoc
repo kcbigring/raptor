@@ -55,4 +55,6 @@ end
 caching
 paging
 tagged photos
+click on photo to show full
+better fidelity thumbnail
 

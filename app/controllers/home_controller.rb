@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
+    @photos = []
     if session[:omniauth]
       facebook = Facebook.new
       token = session[:omniauth]['credentials']['token']
