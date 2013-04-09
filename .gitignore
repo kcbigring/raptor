@@ -4,3 +4,4 @@ public/javascripts
 public/stylesheets
 public/storage
 tmp
+*.copy

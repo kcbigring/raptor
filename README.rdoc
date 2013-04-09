@@ -51,12 +51,18 @@ class Facebook
 
 end
 
-
+Bootstrap - http://railscasts.com/episodes/328-twitter-bootstrap-basics
+    group :assets do
+  		gem "therubyracer"
+  		gem "less-rails"
+  		gem 'twitter-bootstrap-rails'
+	end
+	rails g bootstrap:install
 
 # to do's
-caching
+caching - db
 paging
 tagged photos
+videos
 click on photo to show full
-better fidelity thumbnail
 

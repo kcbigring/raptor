@@ -5,7 +5,7 @@
 <div>
 	<ul class="thumbnails">
 		<% @photos.each_with_index do |photo, index| %>
-	        <li><a href="<%= photo_path(:id => 1, :url => photo['source']) %>"><img src="<%= photo['images'][photo['images'].count- 1]['source'] %>" alt="" width="128px"></a></li>
+	        <li><a href="#"><img src="<%= photo['images'][photo['images'].count- 1]['source'] %>" alt="" width="128px"></a></li>
 	    <% end %>
 	</ul>
 </div>
