@@ -4,7 +4,7 @@
 
 <div>
 	<ul class="thumbnails">
-		<% @photos.each_with_index do |photo, index| %>
+		<% @photos.each do |photo| %>
 	        <li><a href="#"><img src="<%= photo['images'][photo['images'].count- 1]['source'] %>" alt="" width="128px"></a></li>
 	    <% end %>
 	</ul>
