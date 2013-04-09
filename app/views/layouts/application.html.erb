@@ -5,10 +5,40 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="http://www.birdbox.com">
+        	<img src="http://6e54f17ceb3442964e7d-17ab4f1965a85550610092472f3502ef.r7.cf1.rackcdn.com/bb-logo-email_big.gif">
+    	</a>
+        <div class="nav-collapse">
+          <ul class="nav">
+          	<li><%= link_to "Home", root_path %></li>
+            <li><%= link_to "Twitter", "http://www.twitter.com/birdbox" %></li>
+            <li><%= link_to "Facebook", "http://www.facebook.com/birdbox" %></li>
+            <li><%= button_to "Sign in with Facebook", "/auth/facebook", :id => "sign_in", :class => "btn btn-primary" %></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<%= yield %>
-
+  <div class="container">
+    <div class="row">
+      <div class="span9"><%= yield %></div>
+      <div class="span3">
+        <h2>Code Basics 101</h2>
+        <%= link_to "Birdbox", "http://www.birdbox.com" %> and <%= link_to "The Next Web", "http://www.thenextweb.com" %> have teamed up to help teach you the basics of programming. We are going to pull all your photos from facebook and render the thumbnails on the page. Let's have some fun!
+      </div>
+    </div>
+  </div>
 </body>
 </html>

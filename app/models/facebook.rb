@@ -3,8 +3,9 @@ class Facebook
   def get_photos(token)
     photos = []
     albums = get_albums(token)
-    albums.each do |album|
+    albums.each_with_index do |album, index|
       photos.concat page_photos(token, album['id'])
+      break if index > 4
     end
     photos
   end

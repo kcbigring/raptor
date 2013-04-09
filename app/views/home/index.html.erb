@@ -1,18 +1,12 @@
-<%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
+<div style="margin-bottom:10px;">
+	<span class="badge badge-info"><%= @photos.count %> photos found </span>
+</div>
 
-<td>
-  <%= @photos.count %> photos found
-</td>
-<table>
-  <tr>
-<% @photos.each_with_index do |photo, index| %>
-    <td><%= image_tag(photo['images'][photo['images'].count- 1]['source'], :size => "128x128", :alt => "Facebook Photo") %></td>
-  <% if ((index + 1) % 8) == 0 %>
-  </tr>
-  <tr>
-  <% end %>
-<% end %>
-  </tr>
-</table>
- 
-<br />
+<div>
+	<ul class="thumbnails">
+		<% @photos.each_with_index do |photo, index| %>
+	        <li><a href="<%= photo_path(:id => 1, :url => photo['source']) %>"><img src="<%= photo['images'][photo['images'].count- 1]['source'] %>" alt="" width="128px"></a></li>
+	    <% end %>
+	</ul>
+</div>
+

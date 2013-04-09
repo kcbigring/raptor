@@ -1,0 +1,6 @@
+log/*.log
+public/assets
+public/javascripts
+public/stylesheets
+public/storage
+tmp
